@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<article class="container-full">
+{% if page.suppress_title == "suppress" %}
+  <!-- :P -->
+{% else %}
+  <div class="row post">
+    <div class="two columns skip"></div>
+    <div class="seven columns post-title">
+      <h5>{{ page.title }}</h5>
+    </div>
+  </div>
+{% endif %}
+  <div class="row">
+      <div class="two columns skip"></div>
+      <div class="eight columns">{{ content }}</div>
+  </div>
+</article>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Botan Investments</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% if page.title != blank %}
+  <meta name="title" content="{{page.title}}" />{% endif %}{% if page.thumbnail %}
+  <meta name="image_src" content="{{ page.thumbnail | prepend: site.baseurl }}" />
+  {% endif %}
+  <link href='//fonts.googleapis.com/css?family=Open+Sans:400,600,700,300,300italic,400italic,600italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="{{ '/css/prime.css' | prepend: site.baseurl }}">
+  <link rel="icon" type="image/png" href="{{ '/images/favicon.png' | prepend: site.baseurl }}">
+  <script type="text/javascript" src="//vk.com/js/api/share.js?90" charset="windows-1251"></script>
+
+</head>
+<body>
+  <header class="container-full">
+    <nav class="row">
+      <div class="two columns skip"></div>
+      <div class="three columns"><a href="{{ site.baseurl }}/"><img src="{{ '/images/logo.svg' | prepend: site.baseurl }}" alt="Botan Investments" /></a></div>
+      <div class="three columns skip"></div>
+      <div class="four columns">
+        <div class="navlink {% if page.url == '/' %}navlink-selected{% endif %}"><a href="{{ site.baseurl }}/">Фонд</a></div>
+        <div class="navlink {% if page.url == '/about/' %}navlink-selected{% endif %}"><a href="{{ '/#activity' | prepend: site.baseurl }}">Активность</a></div>
+        <div class="navlink {% if page.url == '/contacts/' %}navlink-selected{% endif %}"><a href="{{ '/contacts/' | prepend: site.baseurl }}">Контакты</a></div>
+      </div>
+    </nav>
+  </header>
+
+  {% if page.suppress_title == "suppress" %}
+  <div class="container-full">&nbsp;</div>
+  {% else %}
+  <div class="container-full">
+      <q class="inspiring">Всю власть&nbsp;&mdash; храбрым ботанам!</q>
+  </div>
+  {% endif %}
+
+  {{ content }}
+
+  <footer class="container-full">
+    <div class="row">
+        <div class="three columns skip"></div>
+        <div class="six columns navlink-span">
+            <center><a href="{{ site.baseurl }}/">Фонд</a> | <a href="{{ '/#activity' | prepend: site.baseurl }}">Активность</a> | <a href="{{ '/contacts/' | prepend: site.baseurl }}">Контакты</a></center>
+        </div>
+    </div>
+    <div class="row" style="margin-top: 1rem">
+        <div class="three columns skip"></div>
+        <div class="six columns ">
+            <center>
+                Copyright &copy; 2018 Botan Invesments<br />
+                All rights reserved.
+            </center>
+        </div>
+    </div>
+  </footer>
+</body>
+</html>

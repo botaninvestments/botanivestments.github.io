@@ -1,0 +1,15 @@
+---
+layout: page
+---
+{% if page.thumbnail %}
+ <img style="width: 100%; height: auto" src="{{ page.thumbnail | prepend: site.baseurl }}" alt="{{ page.title }}" />
+{% endif %}
+{{ content }}
+<div>
+  <script type="text/javascript">
+    <!--
+    document.write(VK.Share.button());
+
+    -->
+  </script>
+</div>
