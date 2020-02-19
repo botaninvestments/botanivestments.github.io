@@ -5,8 +5,6 @@ layout: page
 permalink: /contacts/
 ---
 
-### Контакты
-
 Связаться с нами можно по телефону __+7 (922) 373-22-39__ _(Анастасия)_  
 либо через e-mail: _edu@botaninvestments.com_
 
