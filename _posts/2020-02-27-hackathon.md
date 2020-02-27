@@ -1,11 +1,11 @@
 ---
-id: 912
+id: 992
 title: 'Hackathon от BotanInvestments'
 date: 2020-02-27T02:49:38+00:00
 author: Paul Shaburov
 layout: post
-guid: http://botaninvestment.com/?p=912
-permalink: /codeforces/
+guid: http://botaninvestments.com/?p=992
+permalink: /hackathon
 categories:
   - Uncategorized
 ---
