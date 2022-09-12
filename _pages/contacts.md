@@ -5,6 +5,6 @@ layout: page
 permalink: /contacts/
 ---
 
-Связаться с нами можно по телефону __+7 (909) 589-66-37__ _(Татьяна)_  
-либо через e-mail: _edu@botaninvestments.com_
+Связаться с нами можно по телефону __+7 (981) 998-01-06__ _(Татьяна)_  
+либо через e-mail: _allochkakizkalaka@gmail.com_
 
